@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Animation</title>
+        <link rel = "stylesheet" href = "styles.css"/>
+        <script src="jquery-3.5.1.js"></script>
+    </head>
+    <body>
+        <div id="load_1" class="load">
+            <p>Loading 1</p>
+            <div class="container">
+                <div id="load_1_1"></div>
+                <span></span>
+                <div id="load_1_2"></div>
+                <span></span>
+                <div id="load_1_3"></div>
+            </div>
+        </div>
+        <div id="load_2" class="load">
+            <p>Loading 2</p>
+            <div class="container">
+                <div id="load_2_1"></div>
+                <span></span>
+                <div id="load_2_2"></div>
+                <span></span>
+                <div id="load_2_3"></div>
+            </div>
+        </div>
+        <div id="load_3" class="load">
+            <p>Loading 3</p>
+            <div class="container">
+                <div id="load_3_1"></div>
+                <span></span>
+                <div id="load_3_2"></div>
+                <span></span>
+                <div id="load_3_3"></div>
+            </div>
+        </div>
+        <div id="load_6" class="load">
+            <p>Loading 6</p>
+            <div class="container">
+                <div id="load_6_1">L</div>
+                <div id="load_6_2">o</div>
+                <div id="load_6_3">a</div>
+                <div id="load_6_4">d</div>
+                <div id="load_6_5">i</div>
+                <div id="load_6_6">n</div>
+                <div id="load_6_7">g</div>
+                <div id="load_6_8">.</div>
+                <div id="load_6_9">.</div>
+                <div id="load_6_10">.</div>
+            </div>
+        </div>
+        <div id="load_8" class="load">
+            <p>Loading 8</p>
+            <div class="container">
+                <div id="load_8_1"></div>
+            </div>
+        </div>
+        <div id="load_10" class="load">
+            <p>Loading 10</p>
+            <div id="load_10_1"></div>
+        </div>
+        <script src="script1.js"></script>
+        <script>
+            //Loading 10
+            $("#load_10").click(load10());
+            
+            function load10(){
+                $("#load_10_1").animate({
+                    marginLeft: "+=70px",
+                    width: "+=9px",
+                    backgroundColor: "#ff0000"
+                }, {
+                    duration: 800,
+                    easing: "swing"
+                });
+                $("#load_10_1").animate({
+                    marginLeft: "-=70px",
+                    width: "-=9px",
+                    backgroundColor: "#4b9cdb"
+                }, {
+                    duration: 800,
+                    easing: "swing"
+                });
+                load10();
+            }
+        </script>
+    </body>
+</html>
