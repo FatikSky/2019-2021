@@ -1,0 +1,11 @@
+C:\Projects\System\bin\Debug\System.exe.config
+C:\Projects\System\bin\Debug\System.exe
+C:\Projects\System\bin\Debug\System.pdb
+C:\Projects\System\obj\Debug\System.csprojAssemblyReference.cache
+C:\Projects\System\obj\Debug\System.Form.resources
+C:\Projects\System\obj\Debug\System.Properties.Resources.resources
+C:\Projects\System\obj\Debug\System.csproj.GenerateResource.cache
+C:\Projects\System\obj\Debug\System.exe
+C:\Projects\System\obj\Debug\System.pdb
+C:\Projects\System\bin\Debug\GlobalHotKey.dll
+C:\Projects\System\obj\Debug\System.csproj.CopyComplete
