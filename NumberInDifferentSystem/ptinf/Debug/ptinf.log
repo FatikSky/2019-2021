@@ -1,0 +1,3 @@
+﻿  printf.cpp
+C:\Projects\ptinf\ptinf\printf.cpp(168,20): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  ptinf.vcxproj -> C:\Projects\ptinf\Debug\ptinf.exe
